@@ -6,7 +6,7 @@
 
 
 
-EasyEDA Downloader is a Chrome extension that lets you download electronic components directly from EasyEDA, JLCPCB, and LCSC product pages and export them as **KiCad-compatible symbols, footprints, and 3D models**.
+EasyEDA Downloader is a Chrome and Firefox extension that lets you download electronic components directly from EasyEDA, JLCPCB, and LCSC product pages and export them as **KiCad-compatible symbols, footprints, and 3D models**.
 
 It streamlines PCB design workflows by eliminating manual library creation when sourcing components from JLCPCB or LCSC.
 
@@ -16,7 +16,11 @@ It streamlines PCB design workflows by eliminating manual library creation when 
 
 https://chromewebstore.google.com/detail/easyeda-downloader/egbkokdcahpjimldjjaobimnofbdnncb
 
-### Manual Install
+### Install from Firefox Addons Store
+
+https://addons.mozilla.org/en-GB/firefox/addon/easyeda-downloader/
+
+### Manual Install for development builds
 
 1. Load the extension in Chrome:
    - Visit `chrome://extensions`.
