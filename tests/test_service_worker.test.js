@@ -1427,8 +1427,8 @@ describe("service worker", () => {
     const { chrome, listeners } = createServiceWorkerChrome({
       storageState: {
         samacsysFirefoxProxyBaseUrl: "https://proxy.example.test/relay",
-        samacsysFirefoxUsername: "joshuadanielwebster@gmail.com",
-        samacsysFirefoxPassword: "vA23bX-fb5&3$jy",
+        samacsysFirefoxUsername: "user@example.com",
+        samacsysFirefoxPassword: "secret123",
         samacsysFirefoxCapturedAuthorizationHeader: "Basic captured123",
         samacsysFirefoxCapturedAuthorizationCapturedAt:
           "2026-04-14T11:40:00.000Z"
@@ -1438,8 +1438,7 @@ describe("service worker", () => {
       proxyBaseUrl: "https://proxy.example.test/relay",
       symbolImage: "AAAA",
       footprintImage: "BBBB",
-      expectedAuthorizationHeader:
-        "Basic am9zaHVhZGFuaWVsd2Vic3RlckBnbWFpbC5jb206dkEyM2JYLWZiNSYzJGp5"
+      expectedAuthorizationHeader: "Basic dXNlckBleGFtcGxlLmNvbTpzZWNyZXQxMjM="
     });
     loadServiceWorker({
       chrome,
